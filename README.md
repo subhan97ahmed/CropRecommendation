@@ -10,6 +10,10 @@ This machine learning project aims to recommend the most suitable crop to grow b
 - **pH**: pH value of the soil
 - **Rainfall**: Rainfall in mm
 
+## Deployment
+
+Url: https://subhan97ahmed-croprecommendation-frontendindex-ffi2go.streamlit.app/
+
 ## Dataset
 
 The dataset used for training and testing the crop recommendation model consists of historical records of soil and environmental factors along with the corresponding crops that were grown. The dataset is in a structured format, typically in a CSV (Comma Separated Values) file.
