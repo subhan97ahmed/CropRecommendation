@@ -12,7 +12,7 @@ This machine learning project aims to recommend the most suitable crop to grow b
 
 ## Deployment
 
-Url: https://subhan97ahmed-croprecommendation-frontendindex-ffi2go.streamlit.app/
+Url: https://croprecommendations.streamlit.app/
 
 ## Dataset
 
