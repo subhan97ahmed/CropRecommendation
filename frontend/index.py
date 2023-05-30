@@ -1,6 +1,7 @@
 import pickle
 import pandas as pd
 import streamlit as st
+import os
 
 
 def main():
@@ -32,6 +33,7 @@ def main():
             data = pd.DataFrame(data)
 
             print(data.head())
+            print(os.path)
             model = pickle.load(open('/model/model/RandomForestClassifier.sav', 'rb'))
             pred = model.predict(data)
             st.success(str(pred[0]), icon="✅")
