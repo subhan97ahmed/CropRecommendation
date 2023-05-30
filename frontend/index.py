@@ -32,7 +32,7 @@ def main():
             data = pd.DataFrame(data)
 
             print(data.head())
-            model = pickle.load(open('../model/model/RandomForestClassifier.sav', 'rb'))
+            model = pickle.load(open('/model/model/RandomForestClassifier.sav', 'rb'))
             pred = model.predict(data)
             st.success(str(pred[0]), icon="✅")
             print(pred)
